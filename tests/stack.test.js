@@ -1,4 +1,4 @@
-import { Stack } from "../stack/stack.js";
+import { Stack } from "../build/stack/stack.js";
 
 describe("javascript stack", function () {
     it("it creates a empty stack", function () {

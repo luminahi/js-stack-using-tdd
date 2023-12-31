@@ -4,7 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+        "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+        "build": "tsc",
+        "start": "node build/index.js",
+        "watch": "tsc --watch"
     },
     "keywords": [],
     "author": "",
